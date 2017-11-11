@@ -1,0 +1,197 @@
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+
+}
+
+body{
+  width:100%;
+  background-color:white;
+  text-align:center;
+  display:flex;
+  flex-wrap:wrap;
+
+
+}
+
+.container{
+  margin:70px;
+  position:relative;
+  width:100%
+}
+nav{
+  width:100%;
+
+
+
+}
+
+nav li{
+  display:inline-block;
+  width:25%;
+  margin-top:10px;
+  border-radius:15px;
+  float:left;
+  margin-bottom:10px;
+
+}
+nav a{
+  color:#ffffff;
+  text-decoration:none;
+  font-size:24px;
+  font-weight:bolder;
+  transition:.5s;
+}
+
+.navbar{
+  position:absolute;
+  top:0;
+  right:0;
+  height:50px;
+  width:100%;
+  border-radius:25px;
+  background:pink;
+
+}
+
+.unclickable{
+  color:#ffffff;
+  font-weight:bolder;
+  font-size: 24px;
+}
+
+.footer{
+  position:absolute;
+  top:500px;
+  right:0;
+  height:50px;
+  width:100%;
+  border-radius:25px;
+  background:pink;
+
+}
+
+.footerlist{
+  display:inline-block;
+  width: 33%;
+  float:left;
+  list-style-type: none;
+}
+
+.footerimages{
+  width:50px;
+
+}
+
+.footerimages2{
+  width:48px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.crawlingman {
+  width: 50px;
+  height: 10%;
+  position: fixed;
+  animation: moveImg 30s infinite ease-out  ;
+
+}
+
+
+
+@keyframes moveImg {
+  0% {
+    right: 0;
+    bottom: 0;
+  }
+
+
+
+  22% {
+    right: 0;
+    bottom: 90%;
+    transform:rotate(0);
+    animation-timing-function: ease-out;
+
+
+  }
+
+  25% {
+    right: 0;
+    bottom: 90%;
+    transform:rotate(-90deg);
+    animation-timing-function: ease-out;
+
+
+  }
+
+  47% {
+    right: 94%;
+    bottom: 90%;
+    transform:rotate(-90deg);
+    animation-timing-function: ease-out;
+
+  }
+
+  50% {
+    right: 94%;
+    bottom: 90%;
+    transform:rotate(-180deg);
+    animation-timing-function: ease-out;
+
+  }
+
+  72% {
+    right: 94%;
+    bottom: 0%;
+    transform:rotate(-180deg);
+    animation-timing-function: ease-out;
+
+  }
+
+  75% {
+    right: 94%;
+    bottom: 0%;
+    transform:rotate(-270deg);
+    animation-timing-function: ease-out;
+
+  }
+
+  97% {
+    right: 0%;
+    bottom: 0%;
+    transform:rotate(-270deg);
+    animation-timing-function: ease-out;
+
+  }
+
+  100% {
+    right: 0%;
+    bottom: 0%;
+    transform:rotate(-360deg);
+    animation-timing-function: ease-out;
+
+  }
+
+
+}
+
+image:hover{
+
+    transform:translateY(800px);
+
+}
